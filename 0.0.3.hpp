@@ -44,4 +44,5 @@ auto merge(Iterator1 first1, Iterator1 last1, Iterator1 first2, Iterator1 last2,
 			}
 		}
 	}
+	return output;
 }
