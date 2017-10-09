@@ -1,4 +1,5 @@
 #include <iostream>
+//двунаправленный итератор
 
 template <typename Iterator, typename T>
 auto find_two_elements_with_sum(Iterator first, Iterator last, T c)->std::pair<bool, std::pair<Iterator, Iterator>>
