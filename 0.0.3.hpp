@@ -36,7 +36,7 @@ auto merge(Iterator1 first1, Iterator1 last1, Iterator1 first2, Iterator1 last2,
 				output++;
 				first1++;
 			}
-			else
+			else if (*first1 > *first2)
 			{
 				*output = first2;
 				output++;
